@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 class Program
 {
     static void Main()
@@ -52,6 +52,9 @@ class Program
 
             // finally
             previous = num;
+        }
+        if (currentCountEvenElems > 0 && currentCountEvenElems < minCountEvenElems) {
+                    minCountEvenElems = currentCountEvenElems;
         }
         Console.WriteLine($"ответ на задание 1: {maxCountSameElems} (максимальный размер последовательности из одинаковых элементов)");
         Console.WriteLine($"ответ на задание 2: {(minCountEvenElems == int.MaxValue ? 0 : minCountEvenElems)} (минимальный размер последовательности из четных)");
