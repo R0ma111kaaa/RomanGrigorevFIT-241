@@ -13,7 +13,7 @@ class Program
         int maxSumEvenElems, currentSumEvenElems;
 
 
-        int num;
+        int num, abs_num;
         Console.WriteLine("Вводите элементы через Enter: ");
         int previous = int.Parse(Console.ReadLine());
         currentCountEvenElems = previous % 2 == 0 ? 1 : 0;
@@ -21,6 +21,7 @@ class Program
         for (int i = 1; i < n; i++)
         {
             num = int.Parse(Console.ReadLine());
+            abs_num = Math.Abs(num);
             // 1 задача
 
             if (num == previous) {
@@ -32,7 +33,7 @@ class Program
                 maxCountSameElems = currentCountSameElems;
             }
             // 2 задача
-            if (num % 2 == 0) {
+            if (Math.Abs(num)% 2 == 0) {
                 currentCountEvenElems++;
             } else {
                 if (currentCountEvenElems > 0 && currentCountEvenElems < minCountEvenElems) {
@@ -41,7 +42,7 @@ class Program
                 currentCountEvenElems = 0;
             }
             // 3 задача
-            if (num % 2 == 0) {
+            if (Math.Abs(num)% 2 == 0) {
                 currentSumEvenElems += num;
             } else {
                 currentSumEvenElems = 0;
