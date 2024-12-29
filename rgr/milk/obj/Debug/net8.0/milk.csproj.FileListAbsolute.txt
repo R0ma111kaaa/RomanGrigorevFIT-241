@@ -1,0 +1,15 @@
+C:\Users\roma1\c#\RomanGrigorevFIT-241\rgr\milk\bin\Debug\net8.0\milk.exe
+C:\Users\roma1\c#\RomanGrigorevFIT-241\rgr\milk\bin\Debug\net8.0\milk.deps.json
+C:\Users\roma1\c#\RomanGrigorevFIT-241\rgr\milk\bin\Debug\net8.0\milk.runtimeconfig.json
+C:\Users\roma1\c#\RomanGrigorevFIT-241\rgr\milk\bin\Debug\net8.0\milk.dll
+C:\Users\roma1\c#\RomanGrigorevFIT-241\rgr\milk\bin\Debug\net8.0\milk.pdb
+C:\Users\roma1\c#\RomanGrigorevFIT-241\rgr\milk\obj\Debug\net8.0\milk.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\roma1\c#\RomanGrigorevFIT-241\rgr\milk\obj\Debug\net8.0\milk.AssemblyInfoInputs.cache
+C:\Users\roma1\c#\RomanGrigorevFIT-241\rgr\milk\obj\Debug\net8.0\milk.AssemblyInfo.cs
+C:\Users\roma1\c#\RomanGrigorevFIT-241\rgr\milk\obj\Debug\net8.0\milk.csproj.CoreCompileInputs.cache
+C:\Users\roma1\c#\RomanGrigorevFIT-241\rgr\milk\obj\Debug\net8.0\milk.sourcelink.json
+C:\Users\roma1\c#\RomanGrigorevFIT-241\rgr\milk\obj\Debug\net8.0\milk.dll
+C:\Users\roma1\c#\RomanGrigorevFIT-241\rgr\milk\obj\Debug\net8.0\refint\milk.dll
+C:\Users\roma1\c#\RomanGrigorevFIT-241\rgr\milk\obj\Debug\net8.0\milk.pdb
+C:\Users\roma1\c#\RomanGrigorevFIT-241\rgr\milk\obj\Debug\net8.0\milk.genruntimeconfig.cache
+C:\Users\roma1\c#\RomanGrigorevFIT-241\rgr\milk\obj\Debug\net8.0\ref\milk.dll

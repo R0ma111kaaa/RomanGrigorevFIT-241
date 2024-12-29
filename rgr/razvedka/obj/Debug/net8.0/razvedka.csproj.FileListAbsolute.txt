@@ -1,0 +1,15 @@
+C:\Users\roma1\c#\RomanGrigorevFIT-241\rgr\razvedka\bin\Debug\net8.0\razvedka.exe
+C:\Users\roma1\c#\RomanGrigorevFIT-241\rgr\razvedka\bin\Debug\net8.0\razvedka.deps.json
+C:\Users\roma1\c#\RomanGrigorevFIT-241\rgr\razvedka\bin\Debug\net8.0\razvedka.runtimeconfig.json
+C:\Users\roma1\c#\RomanGrigorevFIT-241\rgr\razvedka\bin\Debug\net8.0\razvedka.dll
+C:\Users\roma1\c#\RomanGrigorevFIT-241\rgr\razvedka\bin\Debug\net8.0\razvedka.pdb
+C:\Users\roma1\c#\RomanGrigorevFIT-241\rgr\razvedka\obj\Debug\net8.0\razvedka.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\roma1\c#\RomanGrigorevFIT-241\rgr\razvedka\obj\Debug\net8.0\razvedka.AssemblyInfoInputs.cache
+C:\Users\roma1\c#\RomanGrigorevFIT-241\rgr\razvedka\obj\Debug\net8.0\razvedka.AssemblyInfo.cs
+C:\Users\roma1\c#\RomanGrigorevFIT-241\rgr\razvedka\obj\Debug\net8.0\razvedka.csproj.CoreCompileInputs.cache
+C:\Users\roma1\c#\RomanGrigorevFIT-241\rgr\razvedka\obj\Debug\net8.0\razvedka.sourcelink.json
+C:\Users\roma1\c#\RomanGrigorevFIT-241\rgr\razvedka\obj\Debug\net8.0\razvedka.dll
+C:\Users\roma1\c#\RomanGrigorevFIT-241\rgr\razvedka\obj\Debug\net8.0\refint\razvedka.dll
+C:\Users\roma1\c#\RomanGrigorevFIT-241\rgr\razvedka\obj\Debug\net8.0\razvedka.pdb
+C:\Users\roma1\c#\RomanGrigorevFIT-241\rgr\razvedka\obj\Debug\net8.0\razvedka.genruntimeconfig.cache
+C:\Users\roma1\c#\RomanGrigorevFIT-241\rgr\razvedka\obj\Debug\net8.0\ref\razvedka.dll
