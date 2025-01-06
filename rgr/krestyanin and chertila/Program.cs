@@ -6,7 +6,7 @@ class MainClass
     static void Main()
     {
         int totalCount = 0;
-        const int upperLimit = 1000;
+        int upperLimit = int.Parse(Console.ReadLine());
 
         for (int number = 1; number <= upperLimit; number++)
         {

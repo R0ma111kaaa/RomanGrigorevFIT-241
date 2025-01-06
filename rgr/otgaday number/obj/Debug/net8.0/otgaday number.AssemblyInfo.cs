@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("otgaday number")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d66ff1cd72a258265147beba90423c2edec6d3f7")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7d947e81d890448ded34dba334ad3627a3f706a4")]
 [assembly: System.Reflection.AssemblyProductAttribute("otgaday number")]
 [assembly: System.Reflection.AssemblyTitleAttribute("otgaday number")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -1,7 +1,7 @@
 ﻿using System;
 using System.IO;
 
-namespace Savage
+namespace vivid
 {
     class Program
     {
