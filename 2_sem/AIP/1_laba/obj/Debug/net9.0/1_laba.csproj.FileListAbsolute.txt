@@ -1,0 +1,15 @@
+C:\Users\roma1\c#\RomanGrigorevFIT-241\2_sem\AIP\1_laba\bin\Debug\net9.0\1_laba.exe
+C:\Users\roma1\c#\RomanGrigorevFIT-241\2_sem\AIP\1_laba\bin\Debug\net9.0\1_laba.deps.json
+C:\Users\roma1\c#\RomanGrigorevFIT-241\2_sem\AIP\1_laba\bin\Debug\net9.0\1_laba.runtimeconfig.json
+C:\Users\roma1\c#\RomanGrigorevFIT-241\2_sem\AIP\1_laba\bin\Debug\net9.0\1_laba.dll
+C:\Users\roma1\c#\RomanGrigorevFIT-241\2_sem\AIP\1_laba\bin\Debug\net9.0\1_laba.pdb
+C:\Users\roma1\c#\RomanGrigorevFIT-241\2_sem\AIP\1_laba\obj\Debug\net9.0\1_laba.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\roma1\c#\RomanGrigorevFIT-241\2_sem\AIP\1_laba\obj\Debug\net9.0\1_laba.AssemblyInfoInputs.cache
+C:\Users\roma1\c#\RomanGrigorevFIT-241\2_sem\AIP\1_laba\obj\Debug\net9.0\1_laba.AssemblyInfo.cs
+C:\Users\roma1\c#\RomanGrigorevFIT-241\2_sem\AIP\1_laba\obj\Debug\net9.0\1_laba.csproj.CoreCompileInputs.cache
+C:\Users\roma1\c#\RomanGrigorevFIT-241\2_sem\AIP\1_laba\obj\Debug\net9.0\1_laba.sourcelink.json
+C:\Users\roma1\c#\RomanGrigorevFIT-241\2_sem\AIP\1_laba\obj\Debug\net9.0\1_laba.dll
+C:\Users\roma1\c#\RomanGrigorevFIT-241\2_sem\AIP\1_laba\obj\Debug\net9.0\refint\1_laba.dll
+C:\Users\roma1\c#\RomanGrigorevFIT-241\2_sem\AIP\1_laba\obj\Debug\net9.0\1_laba.pdb
+C:\Users\roma1\c#\RomanGrigorevFIT-241\2_sem\AIP\1_laba\obj\Debug\net9.0\1_laba.genruntimeconfig.cache
+C:\Users\roma1\c#\RomanGrigorevFIT-241\2_sem\AIP\1_laba\obj\Debug\net9.0\ref\1_laba.dll
