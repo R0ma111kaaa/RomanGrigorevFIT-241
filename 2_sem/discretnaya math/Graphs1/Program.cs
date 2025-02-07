@@ -25,9 +25,15 @@
             while (true) {
                 currentNetComps.Add(Current);
                 Nodes.Remove(Current);
-                for (int i = Current; i < width - 1; i++) {
+                for (int i = 0; i < width; i++) {
+                    int currentNode;
+                    if (currentNetComps.Count() > i)
+                    {
+                        currentNode = currentNetComps[i];
+                    }
+                    else { break; }
                     for (int j = Current; j < width; j++) {
-                        if (netMatrix[i][j] && (Nodes.Contains(j))) {
+                        if (netMatrix[currentNode][j] && (Nodes.Contains(j))) {
                             currentNetComps.Add(j);
                             Nodes.Remove(j);
                         }
