@@ -1,2 +1,7 @@
 test/
 RomanGrigorevFIT-241.sln
+bin/
+obj/
+*.csproj
+.vs/
+*.sln
