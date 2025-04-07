@@ -1,6 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
 
+
+// Форд-Буеллман 
+
 class Edge
 {
     public int From, To, Weight;
