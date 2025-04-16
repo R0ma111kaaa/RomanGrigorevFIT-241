@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 
 
-// Форд-Буеллман 
+// Форд-Буеллман
 
 class Edge
 {

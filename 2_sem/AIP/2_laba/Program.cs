@@ -1,72 +1,70 @@
-﻿namespace vivid
+﻿using System;
+
+public abstract class GeometricObject
 {
-    class Shape
+    public string Label { get; private set; }
+
+    protected GeometricObject(string label)
     {
-        string Name;
-        public Shape(string name)
-        {
-            Name = name;
-        }
+        Label = label;
+    }
+}
+
+public interface IMetric
+{
+    double GetPerimeter();
+    double GetArea();
+}
+
+public class RoundShape : GeometricObject, IMetric
+{
+    public double Radius { get; }
+
+    public RoundShape(string label, double radius) : base(label)
+    {
+        Radius = radius;
     }
 
-    interface Methods
+    public double GetPerimeter() => 2 * Math.PI * Radius;
+    public double GetArea() => Math.PI * Math.Pow(Radius, 2);
+}
+
+public class FourSide : GeometricObject, IMetric
+{
+    public double Edge { get; }
+
+    public FourSide(string label, double edge) : base(label)
     {
-        double GetPerimeter();
-        double GetArea();
-    }
-    
-    class Circle : Shape, Methods
-    {
-        public double Radius { get; set; }
-        public Circle(double radius) : base("Окружность")
-        {
-            Radius = radius;
-        }
-        public double GetPerimeter() => 2 * Math.PI * Radius;
-        public double GetArea() => Math.PI * Math.Pow(Radius, 2);
+        Edge = edge;
     }
 
-    class Square : Shape, Methods
+    public double GetPerimeter() => 4 * Edge;
+    public double GetArea() => Edge * Edge;
+}
+
+public class ThreeSide : GeometricObject, IMetric
+{
+    public double Side { get; }
+
+    public ThreeSide(string label, double side) : base(label)
     {
-        public double SideLength { get; set; }
-        public Square(double sideLength) : base("Квадрат")
-        {
-            SideLength = sideLength;
-        }
-        public double GetPerimeter() => 4 * SideLength;
-        public double GetArea() => Math.Pow(SideLength, 2);
+        Side = side;
     }
 
-    class Rectangle: Shape, Methods
+    public double GetPerimeter() => 3 * Side;
+    public double GetArea() => (Math.Sqrt(3) / 4) * Side * Side;
+}
+
+public class Launcher
+{
+    public static void Main(string[] parameters)
     {
-        public double SideLength { get; set; }
-        public Rectangle(double sideLength) : base("Ректальник")
-        {
-            SideLength = sideLength;
-        }
-        public double GetPerimeter() => 4 * SideLength;
-        public double GetArea() => (Math.Sqrt(3) / 4) * Math.Pow(SideLength, 2);
-    }
+        var circle = new RoundShape("Окружность", 5);
+        var square = new FourSide("Квадрат", 4);
+        var triangle = new ThreeSide("Треуголка", 6);
 
-    class Program
-    {
-        static void Main()
-        {
-            Methods circle = new Circle(5);
-            Methods square = new Square(4);
-            Methods triangle = new Rectangle(3);
-
-            Console.WriteLine("Фигура: Окружность");
-            Console.WriteLine($"Периметр: {circle.GetPerimeter():F2}");
-            Console.WriteLine($"Площадь: {circle.GetArea():F2}\n");
-
-            Console.WriteLine("Фигура: Квадрат");
-            Console.WriteLine($"Периметр: {square.GetPerimeter():F2}");
-            Console.WriteLine($"Площадь: {square.GetArea():F2}\n");
-
-            Console.WriteLine("Фигура: Равносторонний треугольник");
-            Console.WriteLine($"Периметр: {triangle.GetPerimeter():F2}");
-            Console.WriteLine($"Площадь: {triangle.GetArea():F2}");
-        }
+        Console.WriteLine($"{circle.Label}: Периметр = {circle.GetPerimeter():F2}, Площадь = {circle.GetArea():F2}");
+        Console.WriteLine($"{square.Label}: Периметр = {square.GetPerimeter():F2}, Площадь = {square.GetArea():F2}");
+        Console.WriteLine($"{triangle.Label}: Периметр = {triangle.GetPerimeter():F2}, Площадь = {triangle.GetArea():F2}");
     }
 }
